@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/55/99/Waxw91.jpg");
+    background-size: cover;
+} 
+
+.header h1{
+    float: left;
+    text-align: center;
+}
+
+.header #instructions{
+    float: right;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid white;
+    margin-top: 15px;
+    font-size: larger;
+}
+
+.header{
+    width: 100%;
+}
+
+
+#play{
+    margin-top: 10px;
+    font-weight:bolder;
+    font-size:larger;
+    width: 90px;
+}
+
+canvas{
+    margin-top: 100px;
+    border-style:solid;
+    border-color: aliceblue;
+}
+
+#footer{
+    width: 100%;
+    bottom: 0px;
+    font-size: larger;
+    background-color: aliceblue;
+    color:cornflowerblue;
+}
+
+#restart{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#status{
+    color: white;
+    background-color: blue;
+    width:250px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
